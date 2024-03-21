@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+body {
+  background: #F6F3FF; 
+  font-family: Raleway, sans-serif;
+  color: #fff;
+}
+
+.login {
+  margin: 20px auto;
+  margin-top:20px;
+  padding: 40px 50px;
+  max-width: 300px;
+  border-radius: 5px;
+  background: #F6F3FF;
+}
+  .login input {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 14px 12px;
+    font-size: 16px;
+    border-radius: 2px; 
+    font-family: Raleway, sans-serif;
+  }
+
+.login input[type=text],
+.login input[type=password] {
+  border: 1px solid #c0c0c0;
+  transition: .2s;
+}
+
+.login input[type=text]:hover {
+  border-color: #A75FDD;
+  outline: none;
+  transition: all .2s ease-in-out;
+} 
+
+button {
+  border: 1px  ;
+  width: 100%;
+  padding:15px;
+  background: #FFF3E6;
+  color: black;
+  border-radius: 50px;
+  box-shadow: 5px 2px 3px black;
+  font-weight: bold;  
+  font-size: 24px;
+  transition: 0.2s;
+  margin: 20px 0px;
+}
+
+.login input[type=submit]:hover {
+  background: rgb(255, 224, 190);  
+}
+
+  .login h2 {
+    margin: 20px 0 0; 
+    margin-bottom: 50px;
+    color: #713F97;
+    font-size: 28px;
+  }
+
+.login p {
+  margin-bottom: 40px;
+}
+
+.links {
+  display: table;
+  color:#A75FDD;
+  width: 100%;  
+  box-sizing: border-box;
+  border-top: 1px solid #c0c0c0;
+  margin-bottom: 10px;
+}
+
+.links a {
+  display: table-cell;
+  padding-top: 10px;
+}
+
+.links a:first-child {
+  text-align: left;
+}
+
+.links a:last-child {
+  text-align: right;
+}
+
+  .login h2,
+  .login p,
+  .login a {
+    text-align: center;    
+  }
+
+.login a {
+  text-decoration: none;  
+  font-size: .8em;
+}
+
+.login a:visited {
+  color: inherit;
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
+.oauth-buttons{
+    margin-top: 20px;
+    margin-left:25px;
+}
+span{
+    margin-left: 130px;
+    color:black;
+}
+.button{
+    background-color: rgb(255, 224, 190);
+    color:black;
+    font-weight: 500    ;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    color:#713F97;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top:70px ;
+    font-size: 44px;
+}

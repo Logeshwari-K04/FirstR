@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css"/>
+    <style>
+        #oauth-buttons {
+            margin-top: 20px;
+            margin-left:70px;
+        }
+    </style>
+</head>
+<body>
+    <h2>First Response</h2>
+    <form class="login">
+        <h2>Create Account</h2>
+        
+        <input type="text" placeholder="Name" value="" required>
+        <input type="email" placeholder="Email" value="" required>
+        <input type="password" placeholder="Password" value="" required>
+
+        <button type="submit"  id="myButton"><a href="./home.html">Create Account</a></button>
+        <div class="links">
+          <a href="./login.html">Login</a>
+        </div>
+        <br/>
+        <span>or </span>
+        <div id="oauth-buttons">
+            <a href="https://accounts.google.com/o/oauth2/v2/auth?
+              client_id=578381693616-1s09725qj16us057jgr4rkot70qj335v.apps.googleusercontent.com &
+              response_type=code &
+              scope=email &
+              redirect_uri=/&
+              state=STATE_VALUE"
+              id="google-auth">
+              <img id="gimg"
+              src="logos_google.png" alt="Sign up with Google" />
+            </a>
+        </div>
+      </form>
+</body>
+</html>
